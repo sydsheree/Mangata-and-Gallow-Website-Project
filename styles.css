@@ -1,0 +1,126 @@
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    gap: 100px;
+}
+
+ nav ul li {
+    padding-bottom: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #f8edd5;
+    width:100%;
+}
+
+.logo1{ 
+    justify-items: center;
+}
+
+.banner1{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover; 
+}
+
+.banner-info h2{
+    position: absolute;
+    top: 35%;
+    left: 57%;
+    text-align: center;
+    font-size: 42px;
+    color: #161515;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    color: darkolivegreen;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+}
+
+.occasions ul {
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    gap: 300px; 
+}
+
+ul.images{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+.card {
+  padding: 16px;
+  text-align: center;
+}
+
+.tab1cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.random h4{
+    position: static;
+    top: 1090px;
+    color: #161515;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 900px;
+    height: 90px;
+    padding-left: 350px;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template:"header header" auto;
+    justify-content: center;
+    gap: 300px;
+}
+
+.column{ 
+    line-height: 40px;
+}
+
+.left {
+    justify-items: start;
+    margin-top: 10px;
+    margin-left:20px;
+}
+
+.right{
+    justify-items: end;
+    margin-right:20px;
+    margin-top: 10px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: fixed;
+    top:90%;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #f8edd5;
+}
